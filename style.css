@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.nav-bars{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.nave{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.fool{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    top: 24px;
+    height:50px;
+    opacity: .5;
+}
+.kal{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 0;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0,0.2);
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 86% 14% 36% 64% / 37% 36% 64% 63% ;
+}
+.text{
+    margin-top: 10px;
+    z-index: 5;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.loop{
+    display: flex;
+    margin-top: 16px;
+
+}
+.links{
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 20px;
+    color: rgb(36, 36, 36);
+}
+.lor{
+    display: none;
+}
+
+#slot{
+    display: none;
+}
+@media (max-width:600px) {
+    .lor{
+        display: block;
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        margin-top: 14px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+
+    }
+    
+    .loop{
+        position: absolute;
+        width: 150px;
+        margin-right: 730px;
+
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        top: 70px;
+        background-color: rgba(0, 0, 0, 0.678);
+        box-shadow: 0px 2px 5px rgb(0, 0, 0,0.2);
+        transition: .5s;
+        backdrop-filter: blur(3px);
+    }
+    #slot{
+       
+       cursor: pointer;
+       display: block;
+       top: 0px;
+       margin-left: 57px;  
+       font-size: 30px;
+       width: 30px;
+       height: 30px;
+    }
+    .links{
+        color: #fff;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
+
+.hmi{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+.mil{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+.meng{
+    width: 50%;
+    padding-top:100px ;
+}
+.kinh{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.para{
+    margin-top: 30px;
+    font-size: 19px;
+    width: 470px;
+    line-height: 30px;
+    color: rgb(68, 68, 68);
+}
+
+.hillo{
+    display: flex;
+    margin-top: 30px;
+
+}
+.vir{
+    width: 200px;
+    height: 80px;
+    background-color: #3553fa;
+    border-radius: 20px;
+
+    cursor: pointer;
+    
+}
+.vir:hover{
+    background: rgb(93, 93, 240);
+    transition: .3s;
+}
+.fit{
+    margin-top: 20px;
+    color: rgb(63, 164, 223);
+    margin-left: 20px;
+
+}
+.fie{
+    margin-top: 20px;
+    color: rgb(250, 204, 135);
+    margin-left: 20px;
+}
+.filow{
+    position: absolute;
+    height: 100px;
+    left: 30%;
+    top: 30%;
+    border: 10px solid rgb(247, 247, 193);
+    width: 100px;
+    background: linear-gradient(to right, yellow, orange);
+    z-index: -1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 50%;
+}
+.jin{
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+.doda{
+    width: 200px;
+    cursor: pointer;
+    height: 80px;
+    margin-left: 20px;
+    background-color: #e9710d;
+    border-radius: 20px;
+}
+.doda:hover{
+    background: rgb(240, 148, 62);
+    transition: .3s;
+}
+
+
+
+.imgine{
+    width: 50%;
+    overflow: hidden;
+    padding-top: 90px;
+}
+.holl{
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+  
+}
+.kolp{
+    position: absolute;
+  background: rgb(224, 198, 118);
+    border-radius:50% ;
+    border: 10px solid rgb(241, 241, 206);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ji{
+    height: 20px;
+    width: 20px;
+    border: 3px solid rgb(77, 77, 241);
+    border-radius: 50%;
+}
+.khon{
+    width: 50px;
+    right: 42%;
+    border: 20px solid rgb(106, 176, 223);
+    top: 58%;
+    border-radius: 50%;
+    height: 50px;
+    z-index: -3;
+    position: absolute;
+    background: lightblue;
+}
+.hlia{
+    height: 600px;
+    background-size: cover;
+    z-index: 7;
+    border-radius:86% 14% 24% 76% / 37% 65% 35% 63%  ;
+    width: 100%;
+}
+.folop{
+    width: 500px;
+    top: 10%;
+    opacity: .4;
+    left: 53%;
+    height: 400px;
+    background: rgba(243, 198, 138, 0.568);
+    border: 20px solid rgb(252, 227, 227);
+    border-radius:83% 17% 81% 19% / 26% 46% 54% 74% ;
+    position: absolute;
+    z-index: -4;
+}
+.kaha{
+    position: absolute;
+    left: 47%;
+    top: 30%;
+    z-index: -2;
+    border-radius: 83% 17% 26% 74% / 41% 52% 48% 59% ;
+    height: 80px;
+    border: 20px solid rgb(218, 242, 250);
+    background: rgb(148, 220, 248);
+    width: 80px;
+}
+
+.dots{
+    position:absolute;
+    top: 30%;
+    left: 37%;
+    background: url(dots.png);
+    height: 300px;
+    width: 100px;
+    background-size:cover ;
+    z-index: -8;
+    opacity: .4;
+    rotate: 50deg;
+}
+
+@media (max-width:1200px) {
+    .folop{
+        width: 400px;
+        height: 300px;
+        left: 40%;
+    }
+    .kinh{
+        font-size: 50px;
+    }
+    .hlia{
+        height: 400px;
+    }
+}
+@media (max-width:860px){
+    .folop{
+        height: 250px;
+        width:300px;
+        left: 47%;
+    }
+    .hlia{
+        height: 300px;
+    }
+    .kinh{
+      font-size: 40px;
+    }
+    .para{
+        width: 300px;
+    }
+}
+@media (max-width:670px){
+    .mil{
+        flex-direction: column;
+    }
+    .meng{
+        width: 100%;
+    }
+    .kinh{
+        text-align: center;
+        font-size: 35px;
+    }
+    .para{
+        width: 100%;
+        text-align: center;
+    }
+    .hillo{
+        width: 100%;
+    }
+    .vir{
+        width: 50%;
+    }
+    .doda{
+        width: 50%;
+    }
+    .jin{
+      font-weight: 400;
+    }
+    .imgine{
+       overflow-x: hidden;
+        width: 100%;
+    }
+    .filow{
+        left: -49px;
+        top: 5%;
+    }
+     
+    .hila{
+        height: 600px;
+        width: 100%;
+
+    }
+    .folop{
+        opacity: .5;
+        left: 0%;
+        display: none;
+        top: 44%;
+        
+    }
+    .khon{
+        right: 0%;
+        opacity: .4;
+        top: -3%;
+    }
+    .dots{
+        top: 80%;
+        rotate: 30deg;
+        opacity: .3;
+        left: -11%;
+    }
+    .kaha{
+        top: 20%;
+        left: 10px;
+       opacity: .6;
+    }
+    .kolp{
+        top: 70%;
+        z-index: -9;
+        left: 10%;
+    }
+    .kolp{
+        left:0%;
+        top: 45%;
+    }
+    .ji{
+        left: 50%;
+    }
+    .chlal{
+        width: 300px;
+        top:60%;
+        display: none;
+    }
+   
+    .holl{
+    height: 300px;
+    }
+
+        
+    
+}
+
+
+.jolp{
+    margin-top: 50px;
+}
+.jhol{
+    width: 400px;
+    height: 250px;
+}
+.chlal{
+    position: absolute;
+    z-index: -10;
+    left: 10%;
+    opacity: .3;
+    height: 300px;
+    height: 400px;
+}
+@media (max-width:650px) {
+    .jhol{
+        width: 100%;
+    }
+    
+}
+
+
+.kamal{
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+.jool{
+ width: 80%;
+ 
+}
+.dixen{
+    width: 500px;
+    line-height: 50px;
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+}
+.bol{
+    font-weight: 100;
+
+}
+
+@media (max-width:650px){
+    .dixen{
+        width: 100%;
+        text-align: center;
+
+    }
+
+}
+
+.goglr{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.kol{
+    width: 80%;
+   display: flex;
+   
+
+}
+.jilp{
+    display: flex;
+    width: 460px;
+    margin-right: 20px;
+    border-radius:3px ;
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow:0px 2px 10px rgb(0, 0, 0,0.2) ;
+    background-color: rgb(255, 255, 255);
+}
+.sabun{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.texte{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.foli{
+    font-size: 18px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    font-weight:100 ;
+}
+.lp{
+    padding-bottom: 15px;
+    font-size: 13px;
+    margin-top: 20px;
+    color: grey;
+    font-weight: 100;
+
+}
+.kiklo{
+    position: absolute;
+    left: 10%;
+    height: 100px;
+    width: 200px;
+    margin-top: -100px;
+}
+.khilari{
+    border-radius: 18% 82% 9% 91% / 3% 85% 15% 97% ;
+    background:linear-gradient( #6441a5 ,#2a0845 );
+    height: 250px;
+    opacity: .4;
+    position:absolute;
+    rotate: -29deg;
+    margin-left: 640px;
+     margin-top: -120px;
+     z-index: -1;
+    
+    width: 360px;
+}
+.chate{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    right:300px ;
+    margin-top: -200px;
+    rotate:30deg ;
+}
+@media (max-width:1220px) {
+    .kol{
+        flex-wrap: wrap;
+    }
+    .jilp{
+        width: 50%;
+    }
+    
+    .fkl{
+        margin-left: 50%;
+
+    }
+    .khilari{
+        margin-top: -3px;
+        width: 250px;
+        height: 300px;
+        margin-left: 300px;
+        z-index: -1;
+        rotate: -56deg;
+    }
+    .chate{
+        right: 200px;
+        opacity: .6;
+    }
+}
+@media (max-width:780px){
+    .kol{
+        flex-wrap: wrap;
+    }
+    .jilp{
+        width: 100%;
+
+    }
+    .fkl{
+        margin-left: 0;
+    }
+    .khilari{
+        margin-left: 1px;
+        opacity: .2;
+        margin-top: 50px;
+        left: -100px;
+        rotate:45deg;
+    }
+    .chate{
+        right: 40px;
+        margin-top: -560px;
+        opacity: .6;
+    }
+}
+@media (max-width:680px){
+    .chate{
+        margin-top: 0;
+        z-index: -1;
+    }
+}
+.lol{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color:#dfac10;
+}
+.kamal{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hig{
+    width: 50%;
+
+}
+.fith{
+    width: 50%;
+}
+.kjn{
+  font-size: 30px;
+  color: #856239;
+  font-weight: 500;
+}
+.jim{
+    margin-top: 40px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+@media (max-width:780px){
+    .kamal{
+        flex-direction:column;
+    }
+    .hig{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .fith{
+        width: 100%;
+    }
+    .kjn{
+        text-align: center;
+    }
+    .jim{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+.tech{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+
+}
+.naloh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+
+}
+.fin{
+    font-size: 30px;
+    color: rgb(46, 151, 184);
+}
+.hign{
+    margin-top: 20px;
+    color: rgb(68, 68, 68);
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dell{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+.khonu{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+
+}
+.kjin{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+     
+
+}
+.bol{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.milan{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.jiml{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+
+@media (max-width:900px) {
+    .kjin{
+        flex-wrap: wrap;
+    }
+    .jiml{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:600px){
+    .bol{
+        width: 80px;
+        height: 80px;
+    }
+}
